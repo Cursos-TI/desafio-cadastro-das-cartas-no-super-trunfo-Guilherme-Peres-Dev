@@ -13,7 +13,7 @@ int main(){
     float superpoder1, superpoder2;
     
 
-    //comeco carta 1
+    //COMECO CARTA 1, AQUI RECEBI OS DADOS DA CARTA 1, CALCULEI TUDO NO SUPER PODER
     printf("cadastre a carta 1:\n");
     printf("Digite a letra do estado: ");
     scanf(" %c", &estado1);
@@ -42,11 +42,11 @@ int main(){
 
     printf("-------CARTA 1 CADASTRADA--------\n");
     printf("---------------------------------\n");
-    //fim carta 1
+    //FIM CARTA 1
 
 
 
-    //começo carta 2
+    //COMECO CARTA 1, AQUI RECEBI OS DADOS DA CARTA 2, CALCULEI TUDO NO SUPER PODER TBM
     printf("Cadastre a carta 2:\n");
     printf("Digite a letra do estado: ");
     scanf(" %c", &estado2);
@@ -73,18 +73,14 @@ int main(){
 
     superpoder2 = pop2 + area2 + pib2 + turisticos2 + pibpercapita2 + (1 / densidadepopulacao2);
 
-
     printf("-------CARTA 2 CADASTRADA--------\n");
     printf("---------------------------------\n");
-    //fim carta 2
+    //FIM CARTA 2
 
-/*
-    printf("######################-\n");
-    printf("Carta 1:\n");
-    printf("Estado: %c\n", estado1);
-    printf("Código: %s\n", cod1);
-    printf("Cidade: %s\n", cidade1);
-*/
+
+
+
+    // RESULTADO DO PROGRAMA
     printf("População da carta 1 é maior que carta 2: %d\n", pop1 > pop2);
     printf("Área da carta 1 é maior que a carta 2: %d\n", area1 > area2);
     printf("PIB da carta 1 é maior que da carta 2: %d\n", pib1 > pib2);
@@ -96,7 +92,18 @@ int main(){
     printf("---------------\n");
 }
 
-    /* 
+
+
+
+
+    /* CÓDIGOS QUE TIREI MAS POSSO USAR FUTURAMENTE
+    printf("######################-\n");
+    printf("Carta 1:\n");
+    printf("Estado: %c\n", estado1);
+    printf("Código: %s\n", cod1);
+    printf("Cidade: %s\n", cidade1);
+
+    
     printf("######################-\n");
     printf("Carta 2:\n");
     printf("Estado: %c\n", estado2);
